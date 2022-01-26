@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(24, 22, 22, 0.849);
+  font-size: 100%;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1b1616;
+  height: 100vh;
+  color: white;
+}
+
+.main .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: 1rem;
+  width: 50rem;
+  height: 90vh;
+  border: solid gold;
+}
+
+.main .contactContainer .contactName {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  height: 1fr;
+  width: 10rem;
+}
+
+.main .contactContainer .contactName .textName {
+  padding: 0.2rem;
+}
+
+.main .contactContainer .contactMail {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  height: 1fr;
+  width: 10rem;
+}
+
+.main .contactContainer .contactMail .textMail {
+  padding: 0.2rem;
+}
+
+.main .contactContainer .contactSubject {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  height: 1fr;
+  width: 10rem;
+}
+
+.main .contactContainer .contactSubject .textSubject {
+  padding: 0.5rem;
+}
+
+.main .contactContainer #send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+  width: 8rem;
+  height: 4rem;
+  border: solid 0.1rem gold;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.main .contactContainer #send:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=contact.css.map */

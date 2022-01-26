@@ -8,7 +8,7 @@ html {
 	font-size: 100%;
 }
 
-.main {
+.home {
 	display: grid;
 	grid-template-columns: 4rem 1fr 1fr;
 	grid-template-rows: 1;
@@ -52,7 +52,7 @@ html {
 		grid-column: 2/3;
 		grid-row: 1/2;
 	}
-	.main-content {
+	.home-content {
 		display: grid;
 		grid-template-rows: 50% 50%;
 		padding: 2rem;

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(24, 22, 22, 0.849);
+  font-size: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #1b1616;
+  height: 100vh;
+  color: white;
+}
+.main .contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 1rem;
+  width: 50rem;
+  height: 90vh;
+  border: solid gold;
+}
+.main .contactContainer .contactName {
+  justify-self: center;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  height: 1fr;
+  width: 10rem;
+}
+.main .contactContainer .contactName .textName {
+  padding: 0.2rem;
+}
+.main .contactContainer .contactMail {
+  justify-self: center;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  height: 1fr;
+  width: 10rem;
+}
+.main .contactContainer .contactMail .textMail {
+  padding: 0.2rem;
+}
+.main .contactContainer .contactSubject {
+  justify-self: center;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  height: 1fr;
+  width: 10rem;
+}
+.main .contactContainer .contactSubject .textSubject {
+  padding: 0.5rem;
+}
+.main .contactContainer #send {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 2rem;
+  width: 8rem;
+  height: 4rem;
+  border: solid 0.1rem gold;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+.main .contactContainer #send:hover {
+  cursor: pointer;
+}

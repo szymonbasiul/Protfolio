@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	background-color: rgba(24, 22, 22, 0.849);
+	font-size: 100%;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	// background dla rozdzielenia
+	background-color: rgb(27, 22, 22);
+	height: 100vh;
+	// margin: 2rem;
+	color: white;
+	.contactContainer {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		margin: 1rem;
+		width: 50rem;
+		height: 90vh;
+		border: solid gold;
+
+		.contactName {
+			justify-self: center;
+			margin-left: 0.5rem;
+			padding: 1rem;
+			height: 1fr;
+			width: 10rem;
+			.textName {
+				padding: 0.2rem;
+			}
+		}
+
+		.contactMail {
+			justify-self: center;
+			margin-left: 0.5rem;
+			padding: 1rem;
+			height: 1fr;
+			width: 10rem;
+			.textMail {
+				padding: 0.2rem;
+			}
+		}
+
+		.contactSubject {
+			justify-self: center;
+			margin-left: 0.5rem;
+			padding: 1rem;
+			height: 1fr;
+			width: 10rem;
+			.textSubject {
+				padding: 0.5rem;
+			}
+		}
+
+		#send {
+			display: flex;
+			align-self: center;
+			justify-content: center;
+			margin: 2rem;
+			width: 8rem;
+			height: 4rem;
+			border: solid 0.1rem gold;
+			border-radius: 1rem;
+			font-size: 1rem;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}

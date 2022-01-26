@@ -10,7 +10,7 @@ html {
   font-size: 100%;
 }
 
-.main {
+.home {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 4rem 1fr 1fr;
@@ -22,7 +22,7 @@ html {
   color: white;
 }
 
-.main .navbar {
+.home .navbar {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -47,7 +47,7 @@ html {
   grid-row: 1/2;
 }
 
-.main .navbar .nav-button {
+.home .navbar .nav-button {
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
   width: 3.6rem;
@@ -60,13 +60,13 @@ html {
   transition: 1s;
 }
 
-.main .navbar .nav-button:hover {
+.home .navbar .nav-button:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
 }
 
-.main .picture {
+.home .picture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +84,7 @@ html {
   grid-row: 1/2;
 }
 
-.main .main-content {
+.home .home-content {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 50% 50%;
@@ -98,11 +98,11 @@ html {
   grid-row: 1/2;
 }
 
-.main .main-content .about-me {
+.home .home-content .about-me {
   margin: 20px;
 }
 
-.main .main-content .my-skills {
+.home .home-content .my-skills {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -112,7 +112,7 @@ html {
   margin: 20px;
 }
 
-.main .main-content .my-skills .skill-1 {
+.home .home-content .my-skills .skill-1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
@@ -121,7 +121,7 @@ html {
   grid-row: 2/3;
 }
 
-.main .main-content .my-skills .skill-2 {
+.home .home-content .my-skills .skill-2 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -130,7 +130,7 @@ html {
   grid-row: 2/3;
 }
 
-.main .main-content .my-skills .skill-3 {
+.home .home-content .my-skills .skill-3 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
@@ -139,7 +139,7 @@ html {
   grid-row: 3/4;
 }
 
-.main .main-content .my-skills .skill-4 {
+.home .home-content .my-skills .skill-4 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
